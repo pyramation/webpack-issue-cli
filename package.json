@@ -1,0 +1,19 @@
+{
+  "name": "dependencies",
+  "scripts": {
+    "build:noaria": "webpack --config webpack.config.js",
+    "build:aria": "webpack --config webpack.config.aria.js"
+  },
+  "dependencies": {
+    "aria": "^0.2.1",
+    "autoprefixer": "9.4.7",
+    "react": "16.5.2",
+    "react-dom": "16.5.2",
+    "redux": "4.0.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-manifest-plugin": "^2.0.4"
+  }
+}
